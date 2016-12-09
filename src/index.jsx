@@ -1,3 +1,3 @@
-import ReactGallery from './ReactGallery';
+import ReactMultimedia from './ReactMultimedia';
 
-export { ReactGallery };
+export { ReactMultimedia };

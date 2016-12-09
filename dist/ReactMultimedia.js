@@ -28,13 +28,13 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 require('../css/style.scss');
 
-var ReactGallery = function (_React$Component) {
-  _inherits(ReactGallery, _React$Component);
+var ReactMultimedia = function (_React$Component) {
+  _inherits(ReactMultimedia, _React$Component);
 
-  function ReactGallery(props) {
-    _classCallCheck(this, ReactGallery);
+  function ReactMultimedia(props) {
+    _classCallCheck(this, ReactMultimedia);
 
-    var _this = _possibleConstructorReturn(this, (ReactGallery.__proto__ || Object.getPrototypeOf(ReactGallery)).call(this, props));
+    var _this = _possibleConstructorReturn(this, (ReactMultimedia.__proto__ || Object.getPrototypeOf(ReactMultimedia)).call(this, props));
 
     _this.state = {
       current: {}
@@ -44,7 +44,7 @@ var ReactGallery = function (_React$Component) {
     return _this;
   }
 
-  _createClass(ReactGallery, [{
+  _createClass(ReactMultimedia, [{
     key: 'select',
     value: function select(obj) {
       this.setState({
@@ -73,7 +73,7 @@ var ReactGallery = function (_React$Component) {
     }
   }]);
 
-  return ReactGallery;
+  return ReactMultimedia;
 }(_react2.default.Component);
 
-exports.default = ReactGallery;
+exports.default = ReactMultimedia;

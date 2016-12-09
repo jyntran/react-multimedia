@@ -5,7 +5,7 @@ import Exhibit from './modules/exhibit.jsx';
 
 require('../css/style.scss');
 
-export default class ReactGallery extends React.Component {
+export default class ReactMultimedia extends React.Component {
 
   constructor(props) {
     super(props);

@@ -3,12 +3,12 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.ReactGallery = undefined;
+exports.ReactMultimedia = undefined;
 
-var _ReactGallery = require('./ReactGallery');
+var _ReactMultimedia = require('./ReactMultimedia');
 
-var _ReactGallery2 = _interopRequireDefault(_ReactGallery);
+var _ReactMultimedia2 = _interopRequireDefault(_ReactMultimedia);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.ReactGallery = _ReactGallery2.default;
+exports.ReactMultimedia = _ReactMultimedia2.default;
