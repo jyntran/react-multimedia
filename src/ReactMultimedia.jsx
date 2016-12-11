@@ -22,10 +22,6 @@ export default class ReactMultimedia extends React.Component {
     });
   }
 
-  componentDidMount() {
-    this.select(this.items[0]);
-  }
-
   render() {
     return (
       <div id="main">
