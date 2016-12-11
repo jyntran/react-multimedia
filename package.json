@@ -5,7 +5,9 @@
   "main": "./dist/index.js",
   "scripts": {
     "prepublish": "npm run build",
-    "build": "babel ./src --out-dir ./dist"
+    "js": "babel ./src --out-dir ./dist",
+    "scss": "node-sass --output-style compressed -o ./dist/css ./src/scss",
+    "build": "npm run js && npm run scss"
   },
   "repository": {
     "type": "git",
