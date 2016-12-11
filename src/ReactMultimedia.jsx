@@ -3,6 +3,8 @@ import React from 'react';
 import Gallery from './modules/gallery';
 import Exhibit from './modules/exhibit';
 
+require('./css/style.css');
+
 export default class ReactMultimedia extends React.Component {
 
   constructor(props) {
