@@ -47,28 +47,6 @@ var Exhibit = function (_React$Component) {
           'div',
           { className: 'video' },
           _react2.default.createElement(_reactPlayer2.default, { className: 'embed', url: this.props.current.videoURL })
-        ),
-        _react2.default.createElement(
-          'article',
-          { className: 'caption message' },
-          _react2.default.createElement(
-            'div',
-            { className: 'message-body' },
-            _react2.default.createElement(
-              'div',
-              { className: 'content' },
-              _react2.default.createElement(
-                'h1',
-                null,
-                this.props.current.name
-              ),
-              _react2.default.createElement(
-                'p',
-                null,
-                this.props.current.date
-              )
-            )
-          )
         )
       );
     }
