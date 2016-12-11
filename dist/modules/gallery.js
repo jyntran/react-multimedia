@@ -10,10 +10,6 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _main = require('./main');
-
-var _main2 = _interopRequireDefault(_main);
-
 var _item = require('./item');
 
 var _item2 = _interopRequireDefault(_item);
@@ -43,7 +39,6 @@ var Gallery = function (_React$Component) {
       return _react2.default.createElement(
         'div',
         { className: 'gallery' },
-        _react2.default.createElement(_main2.default, null),
         _react2.default.createElement(
           'div',
           { className: 'container' },

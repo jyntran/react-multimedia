@@ -22,7 +22,7 @@ export default class ReactMultimedia extends React.Component {
 
   render() {
     return (
-      <div id="main">
+      <div className="reactMultimedia">
         <Gallery
           items={this.props.items}
           select={this.select}

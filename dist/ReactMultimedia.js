@@ -54,7 +54,7 @@ var ReactMultimedia = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        { id: 'main' },
+        { className: 'reactMultimedia' },
         _react2.default.createElement(_gallery2.default, {
           items: this.props.items,
           select: this.select
