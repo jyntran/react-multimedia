@@ -11,12 +11,10 @@ class Item extends React.Component {
 
   render() {
     return (
-      <div className="item tile is-parent">
-        <figure className="image"
+      <div className="gallery-item tile is-parent"
           onClick={this.props.select.bind(this, this.props.data)}
           >
-          <img src={this.props.data.thumb}/>
-        </figure>
+          <img className="gallery-item-image" src={this.props.data.thumb}/>
      </div>
     )
   }

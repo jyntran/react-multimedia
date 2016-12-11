@@ -37,14 +37,10 @@ var Item = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         "div",
-        { className: "item tile is-parent" },
-        _react2.default.createElement(
-          "figure",
-          { className: "image",
-            onClick: this.props.select.bind(this, this.props.data)
-          },
-          _react2.default.createElement("img", { src: this.props.data.thumb })
-        )
+        { className: "gallery-item tile is-parent",
+          onClick: this.props.select.bind(this, this.props.data)
+        },
+        _react2.default.createElement("img", { className: "gallery-item-image", src: this.props.data.thumb })
       );
     }
   }]);
