@@ -10,11 +10,11 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _main = require('./main');
+var _main = require('./main.jsx');
 
 var _main2 = _interopRequireDefault(_main);
 
-var _item = require('./item');
+var _item = require('./item.jsx');
 
 var _item2 = _interopRequireDefault(_item);
 

@@ -10,11 +10,11 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _gallery = require('./modules/gallery');
+var _gallery = require('./modules/gallery.jsx');
 
 var _gallery2 = _interopRequireDefault(_gallery);
 
-var _exhibit = require('./modules/exhibit');
+var _exhibit = require('./modules/exhibit.jsx');
 
 var _exhibit2 = _interopRequireDefault(_exhibit);
 
