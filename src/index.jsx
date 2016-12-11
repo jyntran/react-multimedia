@@ -1,3 +1,3 @@
-import ReactMultimedia from './ReactMultimedia.jsx';
+import ReactMultimedia from './ReactMultimedia';
 
 export { ReactMultimedia };

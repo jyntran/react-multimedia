@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Main from './main.jsx';
-import Item from './item.jsx';
+import Main from './main';
+import Item from './item';
 
 class Gallery extends React.Component {
 

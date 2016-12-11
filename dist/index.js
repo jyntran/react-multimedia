@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.ReactMultimedia = undefined;
 
-var _ReactMultimedia = require('./ReactMultimedia.jsx');
+var _ReactMultimedia = require('./ReactMultimedia');
 
 var _ReactMultimedia2 = _interopRequireDefault(_ReactMultimedia);
 
