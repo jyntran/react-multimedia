@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Gallery from './modules/gallery';
-import Exhibit from './modules/exhibit';
+import Gallery from './modules/gallery.jsx';
+import Exhibit from './modules/exhibit.jsx';
 
 export default class ReactMultimedia extends React.Component {
 
